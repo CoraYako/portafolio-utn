@@ -3,6 +3,7 @@ import NavBar from './components/NavBar.vue'
 import DatosPersonales from './components/DatosPersonales.vue'
 import EducacionYCursos from './components/EducacionYCursos.vue'
 import Experiencia from './components/ExperienciaProfesional.vue'
+import ProyectosVarios from './components/ProyectosVarios.vue'
 </script>
 
 <template>
@@ -21,6 +22,7 @@ import Experiencia from './components/ExperienciaProfesional.vue'
     </section>
     <section id="proyectos">
       <h2>Proyectos</h2>
+      <ProyectosVarios />
     </section>
     <section id="habilidades">
       <h2>Habilidades</h2>
